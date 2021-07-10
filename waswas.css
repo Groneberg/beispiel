@@ -1,0 +1,54 @@
+body {
+  background-color: lightsalmon;
+  font-family: arial;
+  
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  background-color: yellow;
+  
+}
+
+p {
+  font-family: Times New Roman;
+  font-size: larger;
+  width: 60%;
+  margin: 0 auto;
+  
+}
+
+img {
+  display: block;
+  
+  margin: 0 auto;
+  
+}
+
+figcaption {
+  width: 10%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  width: 10%;
+  margin: 0 auto;
+}
+
+table {
+  border: 6px groove aqua;
+  width: 20%;
+  margin: 10px auto;
+  animation: example;
+  animation-duration: 20s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
